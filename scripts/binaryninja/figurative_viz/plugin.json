@@ -1,0 +1,15 @@
+{
+	"plugin": {
+		"name": "FigurativeTrace",
+		"type": ["ui"],
+		"api": "python2",
+		"description": "Figurative Trace Visualization.",
+		"longdescription": "This plugin visualizes Figurative execution traces.\n",
+		"license": {
+			"name": "",
+			"text": ""
+		},
+		"version": "0.0",
+		"author": ""
+	}
+}

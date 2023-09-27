@@ -1,0 +1,23 @@
+[build-system]
+# Minimum requirements for the build system to execute.
+requires = ["setuptools>=49.0.0", "wheel"]  # PEP 518 specifications.
+
+[tool.mypy]
+files = ["figurative_server", "tests"]
+ignore_missing_imports = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_unreachable = true
+
+[tool.isort]
+profile = "black"
+skip = ["venv", "build", "figurative_server/FigurativeServer_pb2.py", "figurative_server/FigurativeServer_pb2_grpc.py"]
+
+[tool.black]
+line-length = 88
+extend-exclude = '''
+    FigurativeServer_pb2_grpc\.py
+  | FigurativeServer_pb2\.py
+  | FigurativeServer_pb2\.pyi
+  | venv
+'''

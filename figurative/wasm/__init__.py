@@ -1,0 +1,1 @@
+from .figurative import FigurativeWASM

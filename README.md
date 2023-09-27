@@ -4,12 +4,6 @@ This project is no longer internally developed and maintained. However, we are h
 
 Any new or currently open issues and discussions shall be answered and supported by the community.
 
-# Figurative
-<p align="center">
-  <img src="https://raw.githubusercontent.com/khulnasoft-lab/figurative/master/docs/images/figurative.png" width="256" title="Figurative">
-</p>
-<br />
-
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/khulnasoft-lab/figurative/ci.yml?branch=master)](https://github.com/khulnasoft-lab/figurative/actions?query=workflow%3ACI)
 [![Coverage Status](https://coveralls.io/repos/github/khulnasoft-lab/figurative/badge.svg)](https://coveralls.io/github/khulnasoft-lab/figurative)

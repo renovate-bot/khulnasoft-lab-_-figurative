@@ -49,7 +49,7 @@ setup(
             "shiv~=1.0.1",
             "types-setuptools",
             "black~=22.0",
-            "isort==5.10.1",
+            "isort==5.13.2",
             "mypy==0.942",
         ]
     },

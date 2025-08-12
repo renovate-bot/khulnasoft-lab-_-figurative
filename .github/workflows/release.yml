@@ -15,7 +15,7 @@ jobs:
     - name: Set up Python 3.7
       uses: actions/setup-python@v4
       with:
-        python-version: 3.7
+        python-version: 3.13
     - name: Install NPM
       uses: actions/setup-node@v3
       with:
@@ -67,7 +67,7 @@ jobs:
     - name: Set up Python 3.7
       uses: actions/setup-python@v4
       with:
-        python-version: 3.7
+        python-version: 3.13
     - name: Build Dist
       run: |
         python3 -m pip install wheel
